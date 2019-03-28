@@ -1,0 +1,29 @@
+{
+  "name": "wx_server",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express-session": "^1.15.6",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhw1996/vue_blog_serve_api.git"
+  },
+  "author": "mhw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mhw1996/vue_blog_serve_api/issues"
+  },
+  "homepage": "https://github.com/Mhw1996/vue_blog_serve_api#readme"
+}

@@ -1,0 +1,9 @@
+SET NAMES utf8mb4;
+DROP DATABASE IF EXISTS Emoji;
+CREATE DATABASE Emoji CHARSET=utf8mb4;
+USE Emoji;
+alter table Emoji set = utf8mb4
+CREATE TABLE Emoji(
+   Eid INT PRIMARY KEY AUTO_INCREMENT,
+   content VARCHAR(200)
+);
